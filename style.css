@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&display=swap');
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 119, 1) 24%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    color: rgb(42, 81, 209);
+}
+
+.main-text {
+    width: 25em;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1em solid rgb(73, 167, 230);
+    border-radius: 2em;
+}
+
+.main-text h1 {
+    margin: .5em;
+}
+
+.main-items {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 7em;
+}
